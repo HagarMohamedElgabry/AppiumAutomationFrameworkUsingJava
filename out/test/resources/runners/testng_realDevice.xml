@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite_Android_Devices" parallel="tests">
+<listeners>
+	<listener class-name="com.appium.listeners.ListenerClass"></listener>
+	<listener class-name="com.appium.listeners.AnnotationTransformer"></listener>
+	<listener class-name="com.appium.listeners.MethodInterceptor"></listener>
+</listeners>
+
+<test name="Tests_on_RealDevice_Samsung Galaxy S20 FE">
+	<parameter name="emulator" value="false"></parameter>
+	<parameter name="platformName" value="Android"></parameter>
+	<parameter name="udid" value="RF8NA11YKPM"></parameter>
+	<!-- Please give proper value as deviceName value is used as avd (to start Emulator automatically) -->
+	<parameter name="deviceName" value="Samsung Galaxy S20 FE"></parameter>
+	<parameter name="systemPort" value="10031" />
+	<parameter name="chromeDriverPort" value="11032" />
+	<classes>
+	 <class name="com.appium.tests.LoginTests"></class>
+	 <class name="com.appium.tests.ProductTests"></class>
+	</classes>
+</test>
+</suite>
