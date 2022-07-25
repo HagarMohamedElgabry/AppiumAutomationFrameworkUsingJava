@@ -97,5 +97,5 @@ How to run the Project from Local machine:
  2- Go to src/test/resources/runners testng_realDevice.xml -> Run this file as TestNG suite (you should have done the setup for Appium) It should start the execution -> Parallel Testing.
 
 
-_**Author:** _Hagar Abdelsamad Elgabry_ <BR/>
-_**LinkedIn Profile:** https://www.linkedin.com/in/hagar-el-gabry<BR/>
+**Author:** _Hagar Abdelsamad Elgabry_ <BR/>
+**LinkedIn Profile:** https://www.linkedin.com/in/hagar-el-gabry<BR/>
