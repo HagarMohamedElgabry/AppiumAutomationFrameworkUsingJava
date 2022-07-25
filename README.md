@@ -3,23 +3,23 @@
 ## About AutomationFramework
 
 Mobile Automation framework is a set of guidelines,or rules used to create and design automated test scripts.
-They provide a generic automation framework that supports real devices (Ios and Android) devices**
+They provide a generic automation framework that supports real devices (Ios and Android) devices**<BR/>
 
-Automation Framework Implementations done the following:
-   1-  Parallel testing (Multiple devices - Android and iOS) (Real devices and Emulator/Simulator)
+Automation Framework Implementations done the following:<BR/>
+   1-  Parallel testing (Multiple devices - Android and iOS) (Real devices and Emulator/Simulator)<BR/>
    2-  Application used: https://github.com/saucelabs/sample-app-mobile/releases (V2.7.1)
-   3-  ExtentReports V5.0.9
-   4-  User has options for customization
-   5-  Email to User(s) using Java mail API
-   6-  Retry failed test cases
-   7-  Custom Enums, Exceptions, Annotations
-   8-  Zip the ExtentReports directory into Project path (you can send this Zip file as well as an Attachment in Email)
-   9-  Automatically open the report after tests execution.
-   10- Start and Stop Appium Server programmatically
-   11- Videos for Failed test cases
-   12- Pass Test Data from JSON file
-   13- Pass Expected Data from XML file
-   14- Send EMail using Java mail API to User(s) with attachment(s).
+   3-  ExtentReports V5.0.9<BR/>
+   4-  User has options for customization<BR/>
+   5-  Email to User(s) using Java mail API<BR/>
+   6-  Retry failed test cases<BR/>
+   7-  Custom Enums, Exceptions, Annotations<BR/>
+   8-  Zip the ExtentReports directory into Project path (you can send this Zip file as well as an Attachment in Email)<BR/>
+   9-  Automatically open the report after tests execution.<BR/>
+   10- Start and Stop Appium Server programmatically<BR/>
+   11- Videos for Failed test cases<BR/>
+   12- Pass Test Data from JSON file<BR/>
+   13- Pass Expected Data from XML file<BR/>
+   14- Send EMail using Java mail API to User(s) with attachment(s).<BR/>
 
 ## Automation Framework Structure
 
@@ -93,7 +93,7 @@ Automation Framework Implementations done the following:
         - Will Put apps (apk and ipa files)
 
 How to run the Project from Local machine:
- 1- Pull the code into your machine and import in IDE (Eclipse/intelliJ).
+ 1- Pull the code into your machine and import in IDE (Eclipse/intelliJ).<BR/>
  2- Go to src/test/resources/runners testng_realDevice.xml -> Run this file as TestNG suite (you should have done the setup for Appium) It should start the execution -> Parallel Testing.
 
 
