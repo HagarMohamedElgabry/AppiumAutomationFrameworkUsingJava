@@ -1,0 +1,85 @@
+com/appium/utils/ConfigLoader.java
+ com.appium.utils.ConfigLoader
+com/appium/listeners/ListenerClass.java
+ com.appium.listeners.ListenerClass
+com/appium/enums/SeverityLevel.java
+ com.appium.enums.SeverityLevel
+com/appium/reports/ExtentReport.java
+ com.appium.reports.ExtentReport
+com/appium/utils/VerificationUtils.java
+ com.appium.utils.VerificationUtils
+com/appium/utils/CommandReader.java
+ com.appium.utils.CommandReader
+com/appium/utils/ZipUtils.java
+ com.appium.utils.ZipUtils
+com/appium/manager/DateTimeManager.java
+ com.appium.manager.DateTimeManager
+com/appium/utils/VideoRecordUtils.java
+ com.appium.utils.VideoRecordUtils
+com/appium/manager/StringsManager.java
+ com.appium.manager.StringsManager
+com/appium/utils/TestUtils.java
+ com.appium.utils.TestUtils
+com/appium/annotations/FrameworkAnnotation.java
+ com.appium.annotations.FrameworkAnnotation
+com/appium/java_Mail_API/EmailAttachmentsSender.java
+ com.appium.java_Mail_API.EmailAttachmentsSender
+ com.appium.java_Mail_API.EmailAttachmentsSender$1
+com/appium/listeners/MethodInterceptor.java
+ com.appium.listeners.MethodInterceptor
+com/appium/reports/ExtentLogger.java
+ com.appium.reports.ExtentLogger
+com/appium/utils/AppiumServerUtils.java
+ com.appium.utils.AppiumServerUtils
+com/appium/manager/DeviceNameManager.java
+ com.appium.manager.DeviceNameManager
+com/appium/base/BasePage.java
+ com.appium.base.BasePage
+com/appium/reports/ExtentManager.java
+ com.appium.reports.ExtentManager
+com/appium/listeners/AnnotationTransformer.java
+ com.appium.listeners.AnnotationTransformer
+com/appium/listeners/RetryFailedTests.java
+ com.appium.listeners.RetryFailedTests
+com/appium/utils/CapabilityUtils.java
+ com.appium.utils.CapabilityUtils
+com/appium/utils/OSInfoUtils.java
+ com.appium.utils.OSInfoUtils
+com/appium/pages/SettingsPage.java
+ com.appium.pages.SettingsPage
+com/appium/utils/ScreenshotUtils.java
+ com.appium.utils.ScreenshotUtils
+com/appium/constants/FrameworkConstants.java
+ com.appium.constants.FrameworkConstants
+com/appium/utils/PropertyUtils.java
+ com.appium.utils.PropertyUtils
+com/appium/pages/ProductsPage.java
+ com.appium.pages.ProductsPage
+com/appium/utils/DeepLink.java
+ com.appium.utils.DeepLink
+com/appium/enums/CategoryType.java
+ com.appium.enums.CategoryType
+com/appium/manager/PlatformManager.java
+ com.appium.manager.PlatformManager
+com/appium/manager/DriverManager.java
+ com.appium.manager.DriverManager
+com/appium/utils/UsernameUtils.java
+ com.appium.utils.UsernameUtils
+com/appium/utils/JSONUtils.java
+ com.appium.utils.JSONUtils
+com/appium/pages/ProductDetailsPage.java
+ com.appium.pages.ProductDetailsPage
+com/appium/enums/WaitStrategy.java
+ com.appium.enums.WaitStrategy
+com/appium/utils/EmailSendUtils.java
+ com.appium.utils.EmailSendUtils
+com/appium/pages/LoginPage.java
+ com.appium.pages.LoginPage
+com/appium/base/BaseTest.java
+ com.appium.base.BaseTest
+com/appium/utils/LogFormatter.java
+ com.appium.utils.LogFormatter
+com/appium/components/MenuPage.java
+ com.appium.components.MenuPage
+com/appium/java_Mail_API/EmailConfig.java
+ com.appium.java_Mail_API.EmailConfig

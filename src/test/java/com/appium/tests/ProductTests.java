@@ -86,17 +86,13 @@ public class ProductTests extends BaseTest {
 		String expectedSLBPrice = StringsManager.getStrings().get(EXPECTED_DATA_KEY_PRODUCTS_PAGE_SLB_PRICE);
 		VerificationUtils.validate(actualSLBPrice, expectedSLBPrice, "Price for Sauce Labs Backpack");
 
-//		settingsPage = productsPage.pressSettingsBtn();
-//		loginPage = settingsPage.pressLogoutBtn();
-	
-		settingsPage = productsPage.
-				getMenuPage().
-				pressSettingsBtn();
-		loginPage = settingsPage.pressLogoutBtn();
-		Assert.fail("***** Failing intentionally ****");
-		
-	}
+		// settingsPage = productsPage.getMenuPage().pressSettingsBtn();
+       // loginPage = settingsPage.pressLogoutBtn();
 
+		settingsPage = productsPage.getMenuPage().pressSettingsBtn();
+		loginPage = settingsPage.pressLogoutBtn();
+		Assert.fail("****************************** Failing intentionally *******************");
+	}
 	@FrameworkAnnotation(severity = {SeverityLevel.Critical}, category = { CategoryType.BVT, CategoryType.REGRESSION })
 	@Test(groups = { "BVT", "REGRESSION" })
 
