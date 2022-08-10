@@ -82,7 +82,8 @@ test {
     useTestNG() {
         useDefaultListeners = true
        // suites 'src/test/resources/runners/testng.xml'
-        // includeGroups 'smoke'
+       // suites "src/test/resources/"+suiteFile
+        // includeGroups 'smoke'./gradlew test --tests "com.MyTestCkass.myTest"
     }
     testLogging.events "passed", "skipped", "failed"
     testLogging.showStandardStreams = true
