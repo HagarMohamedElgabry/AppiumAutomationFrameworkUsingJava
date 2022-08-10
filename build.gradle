@@ -81,9 +81,8 @@ dependencies {
 test {
     useTestNG() {
         useDefaultListeners = true
-       // suites 'src/test/resources/runners/testng.xml'
-       // suites "src/test/resources/"+suiteFile
-        // includeGroups 'smoke'./gradlew test --tests "com.MyTestCkass.myTest"
+        suites 'src/test/resources/runners/Test_Suite_Android_Devices.xml'
+    
     }
     testLogging.events "passed", "skipped", "failed"
     testLogging.showStandardStreams = true
